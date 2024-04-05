@@ -1,0 +1,98 @@
+.productCont {
+  padding: 20px;
+  display: flex;
+  gap: 40px;
+}
+.ContLeft {
+  flex: 1;
+}
+.prodImg {
+  width: 100%;
+  height: 90vh;
+  object-fit: cover;
+}
+.ContRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.productHeading {
+  font-size: 40px;
+  font-weight: 300;
+}
+.proPrc {
+  font-size: 35px;
+  font-weight: 200;
+}
+.proInfo {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.proinfoLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.infoleftTitle {
+  font-size: 20px;
+  font-weight: 300;
+}
+.proColor {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.proinfoRight {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 300;
+}
+.proSize {
+  font-size: 20px;
+  font-weight: 300;
+}
+.filterSize {
+  padding: 5px 10px;
+}
+.proAdd {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  cursor: pointer;
+}
+.proaddLeft {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.number {
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.addBtn {
+  background-color: transparent;
+  padding: 10px 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border: 2px solid teal;
+}
+.addBtn:hover {
+  background-color: rgb(238, 236, 236);
+}

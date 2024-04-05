@@ -1,0 +1,51 @@
+.register {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(rgba(163, 162, 162, 0.8), rgba(0, 0, 0, 0.5)),
+    url("https://cdn.dribbble.com/users/938871/screenshots/9517603/media/3c4c3cfd5773193471f597e3164943e3.jpg?resize=768x576&vertical=center");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registerForm {
+  background-color: #f0f3f4;
+  width: 600px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+.rgstrTitle {
+  font-weight: 300;
+}
+.inputItems {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.rgstrLogin {
+  padding: 10px;
+  width: 40%;
+  font-weight: 500;
+}
+.rgstrDesc{
+    font-size: 14px;
+    text-align: center;
+}
+.rgstrBtn{
+    padding: 10px 30px;
+    background-color: teal;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+}

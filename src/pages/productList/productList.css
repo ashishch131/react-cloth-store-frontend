@@ -1,0 +1,26 @@
+.productList{
+    padding: 20px;
+}
+.proliWrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.proliLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.filter{
+    padding: 10px;
+    font-weight: bold;
+}
+.proliRight{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+option{
+    font-weight: bold;
+}

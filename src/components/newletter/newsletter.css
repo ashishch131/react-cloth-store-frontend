@@ -1,0 +1,48 @@
+.newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+background-color: lightpink;
+  height: 60vh;
+}
+.letterTitle{
+    font-size: 70px;
+}
+.letterDesc{
+    font-size: 30px;
+    font-weight: 300;
+}
+.letterInput{
+width: 50%;
+    background-color: white;
+ height: 50px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.letterInpt{
+    flex: 8;
+    height: 100%;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+}
+.iconBox{
+    background-color: lightgray;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    flex: 1;
+}
+.letterIcon{
+    font-size: 30px !important;
+    cursor: pointer;
+}
+
